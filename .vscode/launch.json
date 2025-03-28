@@ -39,6 +39,36 @@
             "projectName": "wemirr-platform-monitor",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TmsApplication<wemirr-platform-tms>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.wemirr.platform.tms.TmsApplication",
+            "projectName": "wemirr-platform-tms",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WmsApplication<wemirr-platform-wms>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.wemirr.platform.wms.WmsApplication",
+            "projectName": "wemirr-platform-wms",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BpmApplication<wemirr-platform-bpm>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.wemirr.platform.bpm.BpmApplication",
+            "projectName": "wemirr-platform-bpm",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
