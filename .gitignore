@@ -40,3 +40,6 @@ rebel.xml
 /bak/**
 /.idea/
 /.vscode/settings.json
+wemirr-platform-gateway/logs/
+wemirr-platform-iam/logs/
+wemirr-platform-suite/logs/

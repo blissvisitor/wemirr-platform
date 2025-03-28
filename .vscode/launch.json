@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayApplication<wemirr-platform-gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.wemirr.platform.gateway.GatewayApplication",
+            "projectName": "wemirr-platform-gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-IamApplication<wemirr-platform-iam>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.wemirr.platform.iam.IamApplication",
+            "projectName": "wemirr-platform-iam",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SuiteApplication<wemirr-platform-suite>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.wemirr.platform.suite.SuiteApplication",
+            "projectName": "wemirr-platform-suite",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MonitorApplication<wemirr-platform-monitor>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.wemirr.platform.monitor.MonitorApplication",
+            "projectName": "wemirr-platform-monitor",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
